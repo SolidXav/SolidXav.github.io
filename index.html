@@ -1,1 +1,94 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Kowalski - Wizytówka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+  <!-- Tło Three.js -->
+  <canvas id="background"></canvas>
+
+  <!-- Nagłówek -->
+  <header class="header">
+    <h1>Xav</h1>
+    <p>Ksawery Szkudlarski</p>
+  </header>
+
+  <!-- Doświadczenie -->
+  <section class="experience">
+    <div class="timeline">
+      <!-- Serwery Gier -->
+      <div class="timeline-item">
+        <div class="logo">
+          <img src="logo1.png" alt="Serwery Gier" class="logo-img">
+        </div>
+        <div class="details">
+          <h3>Serwery Gier</h3>
+          <ul>
+            <li>Zarządzanie serwerami gier, konfiguracja i optymalizacja</li>
+            <li>Naprawa błędów i usprawnianie wydajności serwera.</li>
+            <li>Zarządzanie bazami danych i statystykami graczy</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Liceum Ogólnokształcące -->
+      <div class="timeline-item">
+        <div class="logo">
+          <img src="logo2.png" alt="Liceum Ogólnokształcące" class="logo-img">
+        </div>
+        <div class="details">
+          <h3>Liceum Ogólnokształcące</h3>
+          <ul>
+            <li>Rozwój umiejętności analitycznych.</li>
+            <li>Zdobycie solidnej wiedzy z zakresu informatyki i matematyki.</li>
+            <li>Umiejętność działania pod presją czasu.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Turniej Trójgamiczny -->
+      <div class="timeline-item">
+        <div class="logo">
+          <img src="logo3.png" alt="Turniej Trójgamiczny" class="logo-img">
+        </div>
+        <div class="details">
+          <h3>Turniej Trójgamiczny</h3>
+          <ul>
+            <li>Tworzenie gier w Unity przy użyciu C#.</li>
+            <li>Praca zespołowa i zarządzanie projektem przez Git.</li>
+            <li>Optymalizacja gier, testowanie i debugowanie.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <footer class="contact">
+    <h2>Kontakt</h2>
+    <div>
+      <img src="chat.png" alt="Mail" class="inline-icon">
+      <span>Email: szkudlarski.ksawery@gmail.com</span>
+    </div>
+    <div>
+      <img src="headphone.png" alt="Discord" class="inline-icon">
+      <span>Discord: don_xavier</span>
+    </div>
+  </footer>
+
+  <!-- Flagi do zmiany języka -->
+  <div class="language">
+    <img src="https://flagcdn.com/w40/pl.png" alt="Polski" title="Polski" id="polish-language">
+    <img src="https://flagcdn.com/w40/gb.png" alt="English" title="English" id="english-language">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

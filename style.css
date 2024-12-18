@@ -1,0 +1,171 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* Zmieniono czcionkę na Roboto */
+  color: white;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.header h1{
+  font-size: 8rem;
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.skills-icons i {
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+.experience {
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.experience ul {
+  list-style-type: disc; /* Włącza kropki na liście */
+  padding-left: 20px; /* Dodaje wcięcie, aby punkty zaczynały się od tego samego miejsca */
+  margin-left: 0; /* Usuwa domyślny margines */
+}
+
+.experience li {
+  text-align: left; /* Wyrównuje tekst do lewej */
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.timeline-item {
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.1);
+}
+
+
+
+.details {
+  margin-top: 10px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact div {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.language {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.language img {
+  cursor: pointer;
+  margin: 0 10px;
+  width: 40px;
+  transition: transform 0.3s;
+}
+
+.language img:hover {
+  transform: scale(1.2);
+}
+
+/* Stylizacja dla logo w miejsce kropki */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* Stylizacja inline ikony w nagłówku */
+.inline-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* Stylizacja dla Xav Ksawery Szkudlarski */
+.custom-font {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4rem; /* Powiększenie rozmiaru */
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff; /* Złoty kolor */
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.name {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6rem;
+  color: #333333;
+  letter-spacing: 2px;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.subname {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #666666;
+  font-weight: 300;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
